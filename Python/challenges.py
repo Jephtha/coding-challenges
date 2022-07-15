@@ -102,3 +102,10 @@
 
 
 # Exercise 11
+# For example, If the given int is 7536, the output shall be “6 3 5 7“, with a space separating the digits.
+
+# x = 7536
+# x = str(x)
+# print(" ".join(reversed(x)))
+
+
