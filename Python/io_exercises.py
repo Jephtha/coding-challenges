@@ -39,4 +39,31 @@
 
 
 # Exercise 7
+# Write a program to take three names as input from a user in the single input() function call.
+# x, y, z = input("Enter three names: ").split()
+# print(x, y, z, sep="\n")
 
+
+# Exercise 8
+# Write a program to use string.format() method to format the following three variables as per the expected output
+# Expected Output: I have 1000 dollars so I can buy 3 football for 450.00 dollars.
+# totalMoney = 1000
+# quantity = 3
+# price = 450
+# print("I have {} dollars so I can buy {} football for {:.2f} dollars.".format(totalMoney, quantity, price))
+
+
+# Exercise 9
+# Write a program to check if the given file is empty or not
+# import os
+
+# if os.path.exists("test.txt") and os.path.getsize("test.txt") == 0: print("File exists and is empty")
+# else: print("File either doesn't exist or is not empty")
+
+# if os.path.isfile("test.txt") and os.stat("test.txt").st_size == 0: print("File exists and is empty")
+# else: print("File either doesn't exist or is not empty")
+
+# with open("test.txt", "r") as file:
+#     first_char = file.read(1) # reading the first character in the file
+#     if not first_char:
+#         print("File is empty")
